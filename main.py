@@ -28,3 +28,6 @@ for counter in range(quantity_of_symbols):
     temporary_password.append(random_symbol)
 
 random.shuffle(temporary_password)
+
+final_password = "".join(temporary_password)
+print(f"Here is your password: {final_password}")
