@@ -11,7 +11,7 @@ How many numbers would you like?
 Hou many symbols would you like?
 2
 ```
-### Exapmle Output
+### Example Output
 ```
 Here is your password: 4V%zl$3s
 ```
