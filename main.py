@@ -22,3 +22,7 @@ for counter in range(quantity_of_letters):
 for counter in range(quantity_of_numbers):
     random_number = random.choice(NUMBERS)
     temporary_password.append(random_number)
+
+for counter in range(quantity_of_symbols):
+    random_symbol = random.choice(SYMBOLS)
+    temporary_password.append(random_symbol)
