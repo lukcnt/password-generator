@@ -26,3 +26,5 @@ for counter in range(quantity_of_numbers):
 for counter in range(quantity_of_symbols):
     random_symbol = random.choice(SYMBOLS)
     temporary_password.append(random_symbol)
+
+random.shuffle(temporary_password)
