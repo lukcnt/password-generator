@@ -18,3 +18,7 @@ temporary_password = []
 for counter in range(quantity_of_letters):
     random_letter = random.choice(LETTERS)
     temporary_password.append(random_letter)
+
+for counter in range(quantity_of_numbers):
+    random_number = random.choice(NUMBERS)
+    temporary_password.append(random_number)
