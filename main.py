@@ -1,3 +1,5 @@
+import random
+
 LETTERS = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 
            'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 
            'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 
@@ -12,3 +14,7 @@ quantity_of_numbers = int(input("How many numbers would you like?\n"))
 quantity_of_symbols = int(input("How many symbols would you like?\n"))
 
 temporary_password = []
+
+for counter in range(quantity_of_letters):
+    random_letter = random.choice(LETTERS)
+    temporary_password.append(random_letter)
